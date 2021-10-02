@@ -43,3 +43,34 @@ ul {
   }
 }
 /* End Global Rules */
+
+/* Start Header */
+.header {
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.header .container::after {
+  content: "";
+  position: absolute;
+  width: calc(100% - 30px);
+  left: 15px;
+  height: 2px;
+  background-color: #726f71;
+  bottom: -2px;
+}
+.header .logo img {
+  height: 40px;
+}
+.header .container .nav {
+  flex: 1;
+}
+.header .container .nav ul li {
+  display: inline-block;
+}
+/* End Header */

@@ -147,6 +147,7 @@ body {
 .header .nav .form i {
   color: white;
   position: absolute;
+  font-size: 20px;
   right: 0;
   top: 50%;
   transform: translateY(-50%);

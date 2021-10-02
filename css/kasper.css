@@ -88,7 +88,7 @@ body {
   font-size: 22px;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .header .container .nav .toggle-menu {
     display: none;
   }
@@ -123,6 +123,7 @@ body {
   color: white;
   text-decoration: none;
   font-size: 13px;
+  font-weight: 600;
   padding: 40px 20px;
   position: relative;
   z-index: 1;

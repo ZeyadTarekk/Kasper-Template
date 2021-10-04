@@ -577,3 +577,54 @@ ul {
   text-transform: uppercase;
 }
 /* End Portfolio */
+/* Start video */
+.video {
+  position: relative;
+}
+.video::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 0 0 / 40%);
+}
+.video video {
+  width: 100%;
+}
+.video .text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+  background-color: var(--transparent-color);
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+.video .text h2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.video .text p {
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+.video .text button {
+  color: white;
+  padding: 3px 15px;
+  background-color: black;
+  border: 0;
+}
+@media (max-width: 676px) {
+  .video .text h2 {
+    font-size: 20px;
+  }
+}
+/* End video */

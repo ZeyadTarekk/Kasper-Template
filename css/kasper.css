@@ -418,14 +418,16 @@ ul {
 }
 .design .image {
   position: relative;
-  left: 200px;
+  text-align: center;
   bottom: -130px;
+  flex: 1;
 }
 .design .text {
   width: 50%;
   background-color: var(--transparent-color);
   display: flex;
   padding: 50px;
+  flex: 1;
   justify-content: flex-start;
   position: relative;
 }

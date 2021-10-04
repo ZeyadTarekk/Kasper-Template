@@ -461,6 +461,10 @@ ul {
 }
 .design .text .content .resp .design1 i {
   font-size: 20px;
+  position: relative;
+  top: 1px;
+  position: relative;
+  top: 2px;
 }
 
 .design .text .content .resp .design1 p {

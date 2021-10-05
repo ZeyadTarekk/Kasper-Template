@@ -744,3 +744,93 @@ ul {
   font-weight: 300;
 }
 /* End Stat */
+/* Start Skills */
+.our-skills {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.our-skills .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 992px) {
+  .our-skills .container > div {
+    flex-basis: 45%;
+  }
+}
+.our-skills .container > div > h3 {
+  font-weight: normal;
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.our-skills .container > div > p {
+  font-weight: 300;
+  font-size: 13px;
+  text-align: center;
+  line-height: 1.8;
+  margin-bottom: 50px;
+}
+.our-skills .container .testimonials .content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.our-skills .container .testimonials .content img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+@media (max-width: 767px) {
+  .our-skills .container .testimonials .content {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .our-skills .container .testimonials .content img {
+    margin-bottom: 20px;
+  }
+}
+.our-skills .container .testimonials .text {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.8;
+  border-bottom: 1px solid #ccc;
+  color: rgba(31, 32, 33, 255);
+}
+.our-skills .container .testimonials .text p {
+  font-style: italic;
+  text-align: right;
+  color: rgba(168, 168, 168, 255);
+  margin-bottom: 10px;
+}
+.our-skills .container .testimonials .bullets {
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.our-skills .container .testimonials .bullets li {
+  width: 14px;
+  height: 14px;
+  border: 1px solid #777;
+  background-color: white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.our-skills .container .testimonials .bullets li.active {
+  background-color: var(--main-color);
+  border: 1px solid var(--main-color);
+}
+/* End Skills */

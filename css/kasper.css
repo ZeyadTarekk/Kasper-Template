@@ -635,7 +635,6 @@ ul {
 /* Start About */
 .about {
   padding-top: 80px;
-  margin-bottom: 80px;
   position: relative;
   overflow: hidden;
   text-align: center;
@@ -672,3 +671,76 @@ ul {
 }
 
 /* End About */
+/* Start Stat */
+.stat {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-image: url(../images/stats.png);
+  text-align: center;
+  position: relative;
+}
+.stat::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 0 0 / 40%);
+}
+.stat .container {
+  position: relative;
+  display: flex;
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+}
+.stat .container .box {
+  background-color: var(--transparent-color);
+  padding: 50px;
+  color: white;
+}
+@media (max-width: 767px) {
+  .stat .container .box {
+    flex-basis: 100%;
+  }
+  .stat .container .box:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+  }
+}
+@media (min-width: 768px) {
+  .stat .container .box {
+    flex-basis: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .stat .container .box {
+    flex-basis: 25%;
+  }
+}
+.stat .container .box i {
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: black;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.stat .container .box h2 {
+  font-size: 51px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.stat .container .box p {
+  font-size: 13px;
+  font-weight: 300;
+}
+/* End Stat */

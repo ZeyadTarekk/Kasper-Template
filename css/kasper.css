@@ -607,6 +607,7 @@ ul {
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
 }
+
 .video .text h2 {
   font-size: 25px;
   font-weight: 600;
@@ -622,7 +623,10 @@ ul {
   background-color: black;
   border: 0;
 }
-@media (max-width: 676px) {
+@media (max-width: 767px) {
+  .video .text {
+    padding: 20px 0;
+  }
   .video .text h2 {
     font-size: 20px;
   }

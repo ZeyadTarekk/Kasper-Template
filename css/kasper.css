@@ -214,6 +214,7 @@ ul {
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
+  cursor: pointer;
 }
 /* End Header */
 
@@ -326,6 +327,10 @@ ul {
 .landing .bullets li.active {
   background-color: var(--main-color);
   border: 1px solid var(--main-color);
+}
+
+.landing i {
+  cursor: pointer;
 }
 
 /* End Landing */
@@ -491,6 +496,7 @@ ul {
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
+  cursor: pointer;
 }
 .portfolio ul li.active,
 .portfolio ul li:hover {
@@ -622,6 +628,7 @@ ul {
   padding: 3px 15px;
   background-color: black;
   border: 0;
+  cursor: pointer;
 }
 @media (max-width: 767px) {
   .video .text {
@@ -1081,6 +1088,7 @@ ul {
   padding: 10px 20px;
   border: 1px solid white;
   border-left: none;
+  cursor: pointer;
 }
 .subscribe .container form input:focus {
   outline: none;
